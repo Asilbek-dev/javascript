@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
 
 import { Layout, Menu, Breadcrumb } from 'antd';
 import {
@@ -13,7 +12,8 @@ import {
 const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
 
-class SiderDemo extends React.Component {
+
+export default class App extends Component {
   state = {
     collapsed: false,
   };
@@ -64,9 +64,7 @@ class SiderDemo extends React.Component {
           <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
         </Layout>
       </Layout>
+
     );
   }
 }
-ReactDOM.render(<SiderDemo />, mountNode);
-
-export default App;
