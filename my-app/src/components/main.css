@@ -28,3 +28,42 @@
   background-color: #30419b !important;
   margin: 0 !important;
 }
+.search {
+  z-index: 1;
+  margin-top: -10px;
+  align-items: center;
+  display: flex;
+  width: 220px;
+}
+.search input {
+  width: 220px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  background-color: #f0f4f7 !important;
+  margin-left: 20px;
+}
+.ant-input-group-addon {
+  margin-top: 0px !important;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  background-color: #f0f4f7 !important;
+  margin-left: 50px;
+}
+.image {
+  width: 100px;
+  /* background: #30419b; */
+  background-color: none;
+}
+.ant-input-group {
+  margin-top: -35px;
+  margin-left: 50px;
+}
+.ant-input {
+  width: 180px !important;
+  border: none;
+}
+.ant-input:focus {
+  -webkit-box-shadow: none;
+}

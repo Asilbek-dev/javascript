@@ -11,6 +11,7 @@ import {
   FileTextOutlined,
   MenuOutlined,
   HeartOutlined,
+  SearchOutlined,
 } from '@ant-design/icons';
 import { Input, Select } from 'antd';
 import { SettingOutlined } from '@ant-design/icons';
@@ -44,23 +45,25 @@ class App extends Component {
         <div className="logo menu" />
         <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline" className="menu">
           <Menu.Item key="1">
-            <img/>
+            <img src="../images/logo.png" className="image"/>
           </Menu.Item>
-          <Menu.Item key="2">
-            Login
-          </Menu.Item>
-          <SubMenu className="site-layout-background" style={{ padding: 0 }} key="sub1" icon={<FileTextOutlined />} title="Pages">
-          {React.createElement(this.state.collapsed ? FileTextOutlined : FileTextOutlined, {
-              className: 'trigger',
-              onClick: this.toggle,
-            })}
+          <SubMenu style={{ padding: 0 }} key="sub1" icon={<FileTextOutlined />} title="Pages">
             <Menu.Item key="3">Start Page</Menu.Item>
             <Menu.Item key="3">Login</Menu.Item>
           </SubMenu>
         </Menu>
       </Sider>
       <Layout>
-        <Header><MenuOutlined /></Header>
+        <Header>
+          <span className="site-layout-background">{React.createElement(this.state.collapsed ? MenuOutlined : MenuOutlined, {
+              className: 'trigger',
+              onClick: this.toggle,
+            })}
+            </span>
+          <span style={{ marginBottom: 0 }} className="search">
+            <Input addonAfter={<SearchOutlined />} placeholder="Search..." />
+          </span>
+        </Header>
         <Content>Start Page</Content>
         <Footer>© 2019 - 2020 Stexo - Crafted with <HeartOutlined /> by Themesdesign.</Footer>
       </Layout>
