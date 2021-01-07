@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { Container, Card} from 'react-bootstrap'
 import { Form, Input,Button,Checkbox } from 'antd';
 import './FA/css/all.min.css'
 
