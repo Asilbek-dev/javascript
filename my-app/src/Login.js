@@ -7,19 +7,14 @@ export default class login extends Component {
   static propTypes = {
     prop: PropTypes
   }
-  
-  
-
   render() {
     const tailLayout = {
       wrapperCol: { offset: 8, span: 16 },
     };
     return (
-    
-         <div className ="container">
+         <div className ="container-fluid">
               <div class="row">
                 <div class="col-md-4 offset-4">
-                  <i className="fas fa-home"></i>
                   <div className = "card ">
                       <div className = "card-text text-center">
                         <img src="../images/logo-dark.png"/>
@@ -69,8 +64,7 @@ export default class login extends Component {
                   </div>
                 </div>
               </div>
-             
-            </div>
+              </div>
       
     )
   }
