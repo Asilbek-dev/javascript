@@ -1,3 +1,124 @@
-h1 {
-  color: #3ea231;
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../main/restaurant.png);
+}
+.row {
+  background: none !important;
+}
+.card {
+  margin-top: 116px;
+  height: 425px;
+  width: 425px !important;
+}
+.card-text {
+  margin-top: 25px;
+}
+img {
+  width: 100px;
+  height: 25px;
+  margin-left: -15px;
+  background: none;
+}
+p {
+  margin-top: 7.5px;
+  margin-left: 1px;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.ant-form-item-label > label {
+  line-height: 25px;
+  font-weight: bold;
+  margin-top: 28px;
+  margin-left: 45px;
+  font-size: 14px;
+}
+
+.ant-input {
+  width: 310px !important;
+  border-radius: 5px;
+  outline: none !important;
+  border: 1.25px solid #cccccc;
+  margin-top: -2px;
+  margin-left: 45px;
+  width: 310px;
+  height: 35.5px;
+  outline: none;
+}
+
+.ant-input-suffix {
+  display: none;
+}
+
+.label_one {
+  margin-top: 50px;
+}
+.label_two {
+  width: 305px;
+  margin-top: -40px;
+}
+.password {
+  margin-top: -15px;
+  width: 325px;
+}
+.username {
+  margin-top: -75px;
+}
+.ant-checkbox-wrapper {
+  margin-left: -95px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.ant-btn {
+  width: 310px;
+  margin-left: -95.5px;
+  height: 40px;
+  background-color: #30419b;
+  font-size: 18px;
+  padding: 5px 0;
+  color: #fff;
+  border-radius: 5.5px;
+}
+.ant-btn:focus {
+  background-color: #30419b;
+}
+.ant-btn:hover {
+  background-color: #30419b;
+}
+.ant-btn-primary {
+  margin-top: -px !important;
+  margin-bottom: 25px !important;
+}
+.button {
+  margin-top: -30px;
+  color: #fff;
+}
+.display-tex {
+  display: flex;
+  align-items: center;
+}
+.oneText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #000000;
+  opacity: 45%;
+  margin-top: -27.5px;
+  margin-left: 35px;
+}
+.fa-lock {
+  margin-left: -10px;
+}
+.oneText span {
+  margin-left: 10px;
+}
+.twoText {
+  margin-top: -27.5px;
+  font-size: 14px;
+  color: #000000;
+  opacity: 45%;
+  margin-left: 54px !important;
 }
