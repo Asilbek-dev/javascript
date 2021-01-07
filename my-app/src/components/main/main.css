@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
 body {
   background-position: center;
   background-repeat: no-repeat;
@@ -21,11 +25,12 @@ img {
   background: none;
 }
 p {
+  font-family: "Poppins", sans-serif;
   margin-top: 7.5px;
   margin-left: 1px;
   font-size: 18px;
-  font-weight: normal;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  color: #354558;
 }
 .ant-form-item-label > label {
   line-height: 25px;
@@ -33,6 +38,8 @@ p {
   margin-top: 28px;
   margin-left: 45px;
   font-size: 14px;
+  color: #354558;
+  opacity: 85%;
 }
 
 .ant-input {
@@ -63,7 +70,7 @@ p {
   width: 325px;
 }
 .username {
-  margin-top: -75px;
+  margin-top: -85px;
 }
 .ant-checkbox-wrapper {
   margin-left: -95px;
@@ -83,9 +90,11 @@ p {
 }
 .ant-btn:focus {
   background-color: #30419b;
+  -webkit-box-shadow: none;
 }
 .ant-btn:hover {
   background-color: #30419b;
+  -webkit-box-shadow: none;
 }
 .ant-btn-primary {
   margin-top: -px !important;
@@ -95,6 +104,9 @@ p {
   margin-top: -30px;
   color: #fff;
 }
+.ant-btn > span {
+  font-family: Arial, Helvetica, sans-serif;
+}
 .display-tex {
   display: flex;
   align-items: center;
@@ -103,11 +115,11 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 14px;
-  color: #000000;
-  opacity: 45%;
-  margin-top: -27.5px;
+  font-size: 12.5px;
+  color: #9ca8b3;
+  margin-top: -10.5px;
   margin-left: 35px;
+  font-family: "Poppins", sans-serif;
 }
 .fa-lock {
   margin-left: -10px;
@@ -116,9 +128,13 @@ p {
   margin-left: 10px;
 }
 .twoText {
-  margin-top: -27.5px;
-  font-size: 14px;
-  color: #000000;
-  opacity: 45%;
-  margin-left: 54px !important;
+  margin-top: -10.5px;
+  font-size: 12.5px;
+  color: #9ca8b3;
+  margin-left: 49px !important;
+  font-family: "Poppins", sans-serif;
+}
+.ant-checkbox + span {
+  color: #354558;
+  opacity: 85%;
 }
