@@ -19,6 +19,7 @@ export default class login extends Component {
          <div className ="container">
               <div class="row">
                 <div class="col-md-4 offset-4">
+                  <i className="fas fa-home"></i>
                   <div className = "card ">
                       <div className = "card-text text-center">
                         <img src="../images/logo-dark.png"/>
