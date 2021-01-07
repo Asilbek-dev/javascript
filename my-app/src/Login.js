@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Form, Input,Button,Checkbox } from 'antd';
 import './FA/css/all.min.css'
 
-export default class App extends Component {
+export default class login extends Component {
   static propTypes = {
     prop: PropTypes
   }
