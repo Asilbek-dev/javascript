@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 657px;
+}
+.container {
+  width: 1296px !important;
+}
+.row {
+  font-family: "Poppins", sans-serif;
+  color: #354558;
+  font-size: 13px;
+}
+.table thead th {
+  font-size: 16px;
+}
+.delete_icon {
+  background-color: #dc3545;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  margin-top: -4.5px;
+  margin-left: 45px;
+}
+.card {
+  margin-top: -450px;
+  height: 300px;
+  width: 500px !important;
+}
+.edit_icon {
+  background-color: #06ffea;
+  width: 32px;
+  height: 32px;
+  color: #009688;
+  margin-left: 12.5px;
+  cursor: pointer;
+  margin-top: -4.5px;
+}
+.number {
+  padding-left: 40px !important;
+  font-weight: 600;
+}
+.weight {
+  font-weight: 600;
+}
+.icons {
+  padding-left: 25px;
+}
+.nav {
+  margin-left: -6px;
+}
+svg {
+  margin-top: 5.5px;
+  width: 20px;
+  height: 20px;
+}
+.btn {
+  margin-right: 16px;
+  background-color: #009688;
+}
+.btn:focus {
+  background-color: #009688;
+  -webkit-box-shadow: none;
+}
+.background {
+  background-color: #eeeeee;
+}
+.btn:hover {
+  background-color: #009688;
+}
+.fontweight {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.icon-slice {
+  padding-right: 65px !important;
+  width: 259px;
+  margin-left: 32px;
+}
+.table thead .icon-slice {
+  padding-left: 35px;
+}
+.header h3 {
+  margin-left: 20px;
+  color: #009688;
+  font-weight: 700;
+}
+.card-header {
+  background-color: #009688;
+  height: 60px !important;
+  width: 500px;
+  margin-left: -24px !important;
+}
+
+.ant-form-item-label > label {
+  line-height: 25px;
+  font-weight: bold;
+  margin-top: 28px;
+  margin-left: 45px;
+  font-size: 14px;
+  color: #354558;
+  opacity: 85%;
+}
+
+.ant-input {
+  width: 310px !important;
+  border-radius: 5px;
+  outline: none !important;
+  border: 1.25px solid #cccccc;
+  margin-top: -36px;
+  margin-left: 45px;
+  width: 310px;
+  height: 35.5px;
+  outline: none;
+  width: 375px !important;
+}
+.ant-input:focus {
+  -webkit-box-shadow: none !important;
+}
+
+.ant-input-suffix {
+  display: none;
+}
+
+.label_one {
+  margin-top: 50px;
+}
+.label_two {
+  width: 305px;
+  margin-top: -40px;
+}
+.password {
+  margin-top: -15px;
+  width: 325px;
+}
+.username {
+  margin-top: -115px;
+  margin-left: -30px;
+}
+
+.ant-btn {
+  background-color: #30419b;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 2.5px;
+  height: 35px;
+  outline: none;
+}
+.ant-btn:focus {
+  background-color: #30419b;
+  -webkit-box-shadow: none !important;
+}
+.ant-btn:hover {
+  background-color: #30419b;
+}
+.ant-btn-primary {
+  margin-top: -px !important;
+  margin-bottom: 25px !important;
+}
+.button {
+  margin-top: -30px;
+  color: #fff;
+}
+.ant-btn > span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ant-checkbox + span {
+  color: #354558;
+  opacity: 85%;
+}
+.cancel {
+  margin-left: 63px !important;
+  background-color: #fff;
+  color: #009688;
+  --antd-wave-shadow-color: none;
+  --scroll-bar: 0;
+  border: none;
+}
+.cancel:hover {
+  background-color: #cccccc;
+  color: #009688;
+}
+.cancel:focus {
+  background-color: #cccccc;
+  color: #009688;
+}
+.bottom {
+  margin-top: 10px;
+}
+.add {
+  background-color: #009688;
+  color: #fff;
+}
+.add {
+  background-color: #009688;
+  color: #fff;
+  border: none;
+}
+.add:hover {
+  background-color: #009688 !important;
+}
+.add:focus {
+  background-color: #009688 !important;
+}
+.ant-modal-footer {
+  display: none !important;
+}
+.ant-modal {
+  height: 250px !important;
+  width: 500px !important;
+}
+.ant-modal-close-icon {
+  display: none !important;
+}
+.ant-modal-title {
+  margin-top: -17px;
+}
+.card-header h3 {
+  margin-top: 7.5px;
+}
+.ant-modal-header {
+  border-bottom: none;
+}
+.ant-modal-content {
+  height: 390px !important;
+}
+.card-body p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 550;
+}
